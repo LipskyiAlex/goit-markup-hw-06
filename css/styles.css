@@ -434,11 +434,6 @@ button {
 
 }
 
-.modal-wrapper {
-
-
-}
-
 
 .modal-btn {
   
@@ -525,7 +520,6 @@ button {
 
   margin-top: 8px;
   margin-bottom: 4px;
-  
 
   text-align: left;
 
@@ -537,10 +531,14 @@ button {
  
 }
 
-.name-label {
+ .name-label {
 
+  margin-top: 0;
+  
   letter-spacing: 0.04em;
-}
+
+ }
+
 
 .modal-input {
 
@@ -601,23 +599,18 @@ button {
 
 .agreement-label {
 
-  display: block;
+  display: flex;
+  align-items: center;
+
   margin-bottom: 24px;
-  
-  text-align: left;
-  padding-left: 24px;
-}
-
-.agreement-wrapper {
-
-  position: relative;
-
-
+    
 }
 
 
 .agreement-input-wrapper {
 
+  margin-left: 8px;
+  
   font-size: 12px;
   line-height: 1.17;
 
@@ -627,13 +620,9 @@ button {
 
 .agreement-label::before {
 
-  position: absolute;
-  top: 0;
-  left: 0;
-
   content: '';
 
-  display: block;
+  display: inline-block;
   width: 16px;
   height: 16px;
 
